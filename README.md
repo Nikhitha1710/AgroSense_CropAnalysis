@@ -36,7 +36,7 @@ Locally:
 pip install pandas numpy scipy matplotlib jupyter
 jupyter notebook Indian_Crop_Yield_Analysis.ipynb
 
-Change the file path in cell 2 to wherever you saved Crop_recommendation.csv.
+Change the file path in cell 2 to wherever you saved Crop_recommendation.csv..
 
 ## Related project
 

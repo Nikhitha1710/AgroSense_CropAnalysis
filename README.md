@@ -86,7 +86,7 @@ Records: 2200 entries across 22 crop types
 
 ## How to Run 🚀
 
-### ☁️ On Kaggle (Recommended)
+### ☁️ On Kaggle
 1. Open the dataset page: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset  
 2. Click **New Notebook**  
 3. Upload `Indian_Crop_Yield_Analysis.ipynb`  
@@ -101,45 +101,41 @@ pip install pandas numpy scipy matplotlib jupyter
 jupyter notebook Indian_Crop_Yield_Analysis.ipynb
 
 ```
-## What this is
 
-I used the Indian Crop Recommendation Dataset from Kaggle (2200 records, 22 crops) to run statistical analysis on soil nutrients, rainfall, temperature, humidity, and pH. The goal was to find patterns that explain why certain crops grow better in certain conditions.
+---
+## Key Features & Analysis 🔑
 
-## What is in the notebook
+- NPK analysis: distribution of nitrogen, phosphorus, and potassium across crops  
+- Rainfall patterns: box plots showing crop water requirements  
+- Statistical testing: Pearson, Spearman, Kruskal-Wallis, and ANOVA  
+- Correlation heatmap: relationships between soil and climate features  
+- Temperature vs humidity: crop clustering by climate  
+- Soil pH analysis: acidity preferences across crop groups  
+- Multi-feature correlation analysis across environmental variables  
+- Statistical validation of agricultural patterns using SciPy  
+- Fully executed notebook with visual outputs
 
-- NPK analysis: how nitrogen, phosphorus, and potassium are distributed across different crops
-- Rainfall patterns: box plots showing how much water each crop actually needs
-- SciPy stats: Pearson correlation, Spearman correlation, Kruskal-Wallis test, one-way ANOVA
-- Correlation heatmap: which soil and climate features move together
-- Temperature vs humidity scatter: how crop groups cluster by climate profile
-- pH violin plots: soil acidity preferences by crop group
+---
 
-## Tools used
+## Technologies Used 🛠️
+Python 3
+pandas, NumPy
+SciPy (statistical testing)
+Matplotlib (visualisation)
+Jupyter Notebook
 
-- Python 3
-- pandas
-- NumPy
-- SciPy
-- Matplotlib
-- Jupyter Notebook
-
-## How to run it
-
-On Kaggle (easiest):
-1. Open the dataset page: kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
-2. Click New Notebook
-3. Upload Indian_Crop_Yield_Analysis.ipynb
-4. Run all cells
-
-Locally:
-pip install pandas numpy scipy matplotlib jupyter
-jupyter notebook Indian_Crop_Yield_Analysis.ipynb
-
-Change the file path in cell 2 to wherever you saved Crop_recommendation.csv..
+---
 
 ## Related Project 🔗📁
 
-This notebook connects to AgroSense, a full stack crop advisory system I built with a C++ data pipeline, Python ML engine, and interactive web dashboard for Indian farmers.
+### AgroSense: Soil Data Analysis & Crop Advisory System 🌾
+
+**A multi-layer system combining:**
+- C++ data pipeline
+- Machine learning prediction engine
+- Interactive web dashboard
+
+👉 This analysis supports and explains the ML predictions used in AgroSense.
 
 **Check it out:** [AgroSense](github.com/Nikhitha1710/AgroSense) 
 

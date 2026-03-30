@@ -57,14 +57,14 @@ The notebook applies statistical techniques and visual exploration to identify p
 
 ```
 Crop-Analysis/
-├── Indian_Crop_Yield_Analysis.ipynb Main analysis notebook
-├── crop_distribution.png Crop distribution plot
-├── npk_distributions.png Nutrient histograms
-├── npk_by_crop.png Nutrient comparison
-├── rainfall_by_crop.png Rainfall boxplots
-├── correlation_heatmap.png Feature correlation heatmap
-├── temp_humidity_scatter.png Climate clustering
-├── ph_violin.png Soil pH distribution
+├── Indian_Crop_Yield_Analysis.ipynb # Main analysis notebook
+├── crop_distribution.png # Crop distribution plot
+├── npk_distributions.png # Nutrient histograms
+├── npk_by_crop.png # Nutrient comparison
+├── rainfall_by_crop.png # Rainfall boxplots
+├── correlation_heatmap.png # Feature correlation heatmap
+├── temp_humidity_scatter.png # Climate clustering
+├── ph_violin.png # Soil pH distribution
 
 ```
 
@@ -118,11 +118,11 @@ jupyter notebook Indian_Crop_Yield_Analysis.ipynb
 ---
 
 ## Technologies Used 🛠️
-Python 3
-pandas, NumPy
-SciPy (statistical testing)
-Matplotlib (visualisation)
-Jupyter Notebook
+- Python 3
+- pandas, NumPy
+- SciPy (statistical testing)
+- Matplotlib (visualisation)
+- Jupyter Notebook
 
 ---
 

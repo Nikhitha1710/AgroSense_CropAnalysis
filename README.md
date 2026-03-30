@@ -117,9 +117,12 @@ jupyter notebook Indian_Crop_Yield_Analysis.ipynb
 
 ## Related Project 🔗📁
 
-### Indian Crop Yield Analysis 🌾
+### AgroSense: Soil Data Analysis & Crop Advisory System 🌾
 
-A statistical data analysis notebook that explores soil and climate patterns influencing crop suitability across India.
+**A multi-layer system combining:**
+- C++ data pipeline
+- Machine learning prediction engine
+- Interactive web dashboard
 
 👉 This analysis supports and explains the ML predictions used in AgroSense.
 

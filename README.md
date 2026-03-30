@@ -2,7 +2,6 @@
 
 A data analysis notebook exploring how soil and climate conditions influence crop suitability across India. Built as an extension of AgroSense, this project focuses on understanding the underlying factors behind crop recommendations rather than just generating predictions.
 
----
 ## Goal 🎯
 
 The goal of this project is to analyse soil and climate data to understand the relationships between environmental conditions and crop growth using statistical methods and visualisation.
@@ -16,16 +15,12 @@ The goal of this project is to analyse soil and climate data to understand the r
 
 The notebook applies statistical techniques and visual exploration to identify patterns, validate relationships, and understand how different crops respond to varying conditions.
 
----
-
 ## Analysis Breakdown 🏗️
 
 ### **1. Data Exploration Layer:**
 - Loads and inspects the crop recommendation dataset
 - Validates dataset structure and checks for missing values
 - Generates summary statistics for all features
-
----
 
 ### **2. Visualization Layer:**
 - Crop distribution analysis across 22 crop types
@@ -35,15 +30,11 @@ The notebook applies statistical techniques and visual exploration to identify p
 - Soil pH distribution using violin plots
 - Correlation heatmap for feature relationships
 
----
-
 ### **3. Statistical Analysis Layer:**
 - Pearson correlation → relationship between nutrients and rainfall
 - Spearman correlation → non-linear relationship between temperature and pH
 - Kruskal-Wallis test → rainfall differences across crops
 - One-way ANOVA → nitrogen variation across crops
-
----
 
 ### **How the Analysis Works ⚙️**
 1. Dataset is loaded and cleaned
@@ -91,8 +82,6 @@ Records: 2200 entries across 22 crop types
 2. Click **New Notebook**  
 3. Upload `Indian_Crop_Yield_Analysis.ipynb`  
 4. Run all cells  
-
----
 
 ### 💻 Run Locally
 

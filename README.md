@@ -126,7 +126,7 @@ jupyter notebook Indian_Crop_Yield_Analysis.ipynb
 
 👉 This analysis supports and explains the ML predictions used in AgroSense.
 
-**Check it out:** [AgroSense](github.com/Nikhitha1710/AgroSense) 
+**Check it out:** [AgroSense](https://github.com/Nikhitha1710/AgroSense) 
 
 ---
 

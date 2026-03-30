@@ -38,12 +38,16 @@ jupyter notebook Indian_Crop_Yield_Analysis.ipynb
 
 Change the file path in cell 2 to wherever you saved Crop_recommendation.csv..
 
-## Related project
+## Related Project 🔗📁
 
 This notebook connects to AgroSense, a full stack crop advisory system I built with a C++ data pipeline, Python ML engine, and interactive web dashboard for Indian farmers.
 
-Check it out: github.com/Nikhitha1710/AgroSense
+**Check it out:** [AgroSense](github.com/Nikhitha1710/AgroSense) 
+
+---
+
+## Built By 🙋‍♀️😄
 
 Cheparthi Sri Nikhitha
-BSc Computer Science, University of London
-LinkedIn: linkedin.com/in/cheparthi-sri-nikhitha-886b381b1
+- [LinkedIn](https://www.linkedin.com/in/cheparthi-sri-nikhitha-886b381b1)
+- [Portfolio](https://nikhithaprofessionalportfolio.netlify.app/)

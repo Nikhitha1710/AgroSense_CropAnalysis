@@ -2,7 +2,7 @@
 
 A data analysis notebook exploring how soil and climate conditions influence crop suitability across India. Built as an extension of AgroSense, this project focuses on understanding the underlying factors behind crop recommendations rather than just generating predictions.
 
-## Goal 🎯
+### Goal 🎯
 
 The goal of this project is to analyse soil and climate data to understand the relationships between environmental conditions and crop growth using statistical methods and visualisation.
 

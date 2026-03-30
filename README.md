@@ -53,7 +53,54 @@ The notebook applies statistical techniques and visual exploration to identify p
 
 ---
 
+## Project Structure 🧩
 
+```
+Crop-Analysis/
+├── Indian_Crop_Yield_Analysis.ipynb Main analysis notebook
+├── crop_distribution.png Crop distribution plot
+├── npk_distributions.png Nutrient histograms
+├── npk_by_crop.png Nutrient comparison
+├── rainfall_by_crop.png Rainfall boxplots
+├── correlation_heatmap.png Feature correlation heatmap
+├── temp_humidity_scatter.png Climate clustering
+├── ph_violin.png Soil pH distribution
+
+```
+
+---
+
+## Dataset 📊
+
+**Indian Crop Recommendation Dataset**  
+Source: Kaggle  
+
+Features:
+- Soil Nutrients: Nitrogen (N), Phosphorus (P), Potassium (K)
+- Environmental Variables: temperature, humidity, rainfall, pH
+- Target Variable: crop label  
+
+Records: 2200 entries across 22 crop types  
+
+---
+
+## How to Run 🚀
+
+### ☁️ On Kaggle (Recommended)
+1. Open the dataset page: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset  
+2. Click **New Notebook**  
+3. Upload `Indian_Crop_Yield_Analysis.ipynb`  
+4. Run all cells  
+
+---
+
+### 💻 Run Locally
+
+```
+pip install pandas numpy scipy matplotlib jupyter
+jupyter notebook Indian_Crop_Yield_Analysis.ipynb
+
+```
 ## What this is
 
 I used the Indian Crop Recommendation Dataset from Kaggle (2200 records, 22 crops) to run statistical analysis on soil nutrients, rainfall, temperature, humidity, and pH. The goal was to find patterns that explain why certain crops grow better in certain conditions.
